@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Bogus/34.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Bogus.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Bogus.dll": {}
+        }
+      },
       "coverlet.collector/1.2.0": {
         "type": "package",
         "build": {
@@ -1659,10 +1668,39 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "CursoOnline.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/CursoOnline.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CursoOnline.Dominio.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Bogus/34.0.2": {
+      "sha512": "2KQAuMn3fLAQ2r6jeiffZnpv0bi3GCW3iRB2v1KeHIEBu8MNTh9dBlLTZwGvM0pr+9doKkU8L5JgCURmTmT88A==",
+      "type": "package",
+      "path": "bogus/34.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bogus.34.0.2.nupkg.sha512",
+        "bogus.nuspec",
+        "lib/net40/Bogus.dll",
+        "lib/net40/Bogus.xml",
+        "lib/net6.0/Bogus.dll",
+        "lib/net6.0/Bogus.xml",
+        "lib/netstandard1.3/Bogus.dll",
+        "lib/netstandard1.3/Bogus.xml",
+        "lib/netstandard2.0/Bogus.dll",
+        "lib/netstandard2.0/Bogus.xml"
+      ]
+    },
     "coverlet.collector/1.2.0": {
       "sha512": "ZB+EGXsVBIn8cew7D3S2c+rgIlokKv1dSwsXEoiFQaNXF/BSxp9Rlfz/jV1ehSWH5XpLitfRxFNW3ok7uPDOXA==",
       "type": "package",
@@ -5639,10 +5677,17 @@
         "xunit.runner.visualstudio.2.4.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "CursoOnline.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../../src/CursoOnline.Dominio/CursoOnline.Dominio.csproj",
+      "msbuildProject": "../../src/CursoOnline.Dominio/CursoOnline.Dominio.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Bogus >= 34.0.2",
+      "CursoOnline.Dominio >= 1.0.0",
       "ExpectedObjects >= 3.5.4",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "coverlet.collector >= 1.2.0",
@@ -5676,7 +5721,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\gabri\\source\\repos\\CursoOnline\\src\\CursoOnline.Dominio\\CursoOnline.Dominio.csproj": {
+              "projectPath": "C:\\Users\\gabri\\source\\repos\\CursoOnline\\src\\CursoOnline.Dominio\\CursoOnline.Dominio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5689,6 +5738,10 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
+          "Bogus": {
+            "target": "Package",
+            "version": "[34.0.2, )"
+          },
           "ExpectedObjects": {
             "target": "Package",
             "version": "[3.5.4, )"

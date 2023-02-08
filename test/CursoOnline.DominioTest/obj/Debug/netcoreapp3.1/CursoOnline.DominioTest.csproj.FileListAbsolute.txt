@@ -95,3 +95,6 @@ C:\Users\gabri\source\repos\CursoOnline\test\CursoOnline.DominioTest\obj\Debug\n
 C:\Users\gabri\source\repos\CursoOnline\test\CursoOnline.DominioTest\obj\Debug\netcoreapp3.1\CursoOnline.DominioTest.genruntimeconfig.cache
 C:\Users\gabri\source\repos\CursoOnline\test\CursoOnline.DominioTest\obj\Debug\netcoreapp3.1\CursoOnline.DominioTest.csproj.AssemblyReference.cache
 C:\Users\gabri\source\repos\CursoOnline\test\CursoOnline.DominioTest\bin\Debug\netcoreapp3.1\ExpectedObjects.dll
+C:\Users\gabri\source\repos\CursoOnline\test\CursoOnline.DominioTest\bin\Debug\netcoreapp3.1\Bogus.dll
+C:\Users\gabri\source\repos\CursoOnline\test\CursoOnline.DominioTest\bin\Debug\netcoreapp3.1\CursoOnline.Dominio.dll
+C:\Users\gabri\source\repos\CursoOnline\test\CursoOnline.DominioTest\bin\Debug\netcoreapp3.1\CursoOnline.Dominio.pdb
