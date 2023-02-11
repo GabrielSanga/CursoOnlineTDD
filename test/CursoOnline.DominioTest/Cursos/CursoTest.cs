@@ -16,7 +16,7 @@ namespace CursoOnline.DominioTest.Cursos
         private readonly string _nome;
         private readonly double _cargaHoraria;
         private readonly string _descricao;
-        private readonly PublicoAlvo _publicAlvo;
+        private readonly string _publicAlvo;
         private readonly double _valor;
 
         /// <summary>
@@ -31,7 +31,7 @@ namespace CursoOnline.DominioTest.Cursos
             _nome = faker.Random.Word();
             _descricao = faker.Lorem.Paragraph();
             _cargaHoraria = faker.Random.Double(50, 1000);
-            _publicAlvo = PublicoAlvo.Estudante;
+            _publicAlvo = "Estudante";
             _valor = faker.Random.Double(100, 1000);
         }
 
@@ -50,11 +50,11 @@ namespace CursoOnline.DominioTest.Cursos
                 nome = _nome,
                 descricao = _descricao,
                 cargaHoraria = _cargaHoraria,
-                publicoAlvo = _publicAlvo,
+                publicoAlvo = PublicoAlvo.Estudante,
                 valor = _valor
             };
 
-            var oCurso = new Curso(oCursoEsperado.nome, oCursoEsperado.descricao, oCursoEsperado.cargaHoraria, oCursoEsperado.publicoAlvo, oCursoEsperado.valor);
+            var oCurso = new Curso(oCursoEsperado.nome, oCursoEsperado.descricao, oCursoEsperado.cargaHoraria, _publicAlvo, oCursoEsperado.valor);
 
             oCursoEsperado.ToExpectedObject().ShouldMatch(oCurso);
         }

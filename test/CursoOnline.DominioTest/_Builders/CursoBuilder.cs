@@ -8,7 +8,7 @@ namespace CursoOnline.DominioTest._Builders
         private string _nome = "Informatica Basica";
         private string _descricao = "Teste";
         private double _cargaHoraria = 40;
-        private PublicoAlvo _publicoAlvo = PublicoAlvo.Estudante;
+        private string _publicoAlvo = "Estudante";
         private double _valor = 950;
 
         public static CursoBuilder Novo()
@@ -34,7 +34,7 @@ namespace CursoOnline.DominioTest._Builders
             return this;
         }
 
-        public CursoBuilder ComPublicoAlvo(PublicoAlvo publicoAlvo)
+        public CursoBuilder ComPublicoAlvo(string publicoAlvo)
         {
             _publicoAlvo = publicoAlvo;
             return this;

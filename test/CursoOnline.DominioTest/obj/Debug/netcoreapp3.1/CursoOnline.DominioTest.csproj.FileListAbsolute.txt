@@ -98,3 +98,7 @@ C:\Users\gabri\source\repos\CursoOnline\test\CursoOnline.DominioTest\bin\Debug\n
 C:\Users\gabri\source\repos\CursoOnline\test\CursoOnline.DominioTest\bin\Debug\netcoreapp3.1\Bogus.dll
 C:\Users\gabri\source\repos\CursoOnline\test\CursoOnline.DominioTest\bin\Debug\netcoreapp3.1\CursoOnline.Dominio.dll
 C:\Users\gabri\source\repos\CursoOnline\test\CursoOnline.DominioTest\bin\Debug\netcoreapp3.1\CursoOnline.Dominio.pdb
+C:\Users\gabri\source\repos\CursoOnline\test\CursoOnline.DominioTest\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\gabri\source\repos\CursoOnline\test\CursoOnline.DominioTest\bin\Debug\netcoreapp3.1\Moq.dll
+C:\Users\gabri\source\repos\CursoOnline\test\CursoOnline.DominioTest\bin\Debug\netcoreapp3.1\System.Diagnostics.EventLog.dll
+C:\Users\gabri\source\repos\CursoOnline\test\CursoOnline.DominioTest\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.EventLog.dll

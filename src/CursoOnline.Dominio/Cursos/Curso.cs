@@ -4,7 +4,7 @@ namespace CursoOnline.Dominio.Cursos
 {
     public class Curso
     {
-        public Curso(string nome, string descricao, double cargaHoraria, PublicoAlvo publicoAlvo, double valor)
+        public Curso(string nome, string descricao, double cargaHoraria, string publicoAlvo, double valor)
         {
             if (nome == string.Empty || nome == null)
             {
@@ -16,6 +16,11 @@ namespace CursoOnline.Dominio.Cursos
                 throw new ArgumentException("Carga Horária Invalida");
             }
 
+            if(!Enum.TryParse<PublicoAlvo>(publicoAlvo, out var publicoAlvoValido))
+            {
+                throw new ArgumentException("Publico alvo inválido");
+            }
+
             if (valor < 1)
             {
                 throw new ArgumentException("Valor Inválido");
@@ -24,7 +29,7 @@ namespace CursoOnline.Dominio.Cursos
             this.nome = nome;
             this.descricao = descricao;
             this.cargaHoraria = cargaHoraria;
-            this.publicoAlvo = publicoAlvo;
+            this.publicoAlvo = (PublicoAlvo) publicoAlvoValido;
             this.valor = valor;
         }
 
