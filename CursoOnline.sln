@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33214.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoOnline.DominioTest", "test\CursoOnline.DominioTest\CursoOnline.DominioTest.csproj", "{320A6A82-AA47-4B70-982A-C1A6774613C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoOnline.DominioTest", "test\CursoOnline.DominioTest\CursoOnline.DominioTest.csproj", "{320A6A82-AA47-4B70-982A-C1A6774613C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoOnline.Dominio", "src\CursoOnline.Dominio\CursoOnline.Dominio.csproj", "{A121EDA5-0448-498E-B5C3-32C9AEB4B754}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoOnline.Dominio", "src\CursoOnline.Dominio\CursoOnline.Dominio.csproj", "{A121EDA5-0448-498E-B5C3-32C9AEB4B754}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CursoOnline.Web", "src\CursoOnline.Web\CursoOnline.Web\CursoOnline.Web.fsproj", "{B8E48986-3B5E-42DA-B933-C6A684845ABF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A121EDA5-0448-498E-B5C3-32C9AEB4B754}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A121EDA5-0448-498E-B5C3-32C9AEB4B754}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A121EDA5-0448-498E-B5C3-32C9AEB4B754}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8E48986-3B5E-42DA-B933-C6A684845ABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8E48986-3B5E-42DA-B933-C6A684845ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8E48986-3B5E-42DA-B933-C6A684845ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8E48986-3B5E-42DA-B933-C6A684845ABF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
