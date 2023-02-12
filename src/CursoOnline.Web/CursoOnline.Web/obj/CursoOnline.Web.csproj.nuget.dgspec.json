@@ -97,12 +97,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "Microsoft.AspNetCore.All": {
-              "target": "Package",
-              "version": "[2.2.8, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

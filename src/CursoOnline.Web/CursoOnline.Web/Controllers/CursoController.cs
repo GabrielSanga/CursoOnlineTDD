@@ -1,4 +1,6 @@
-﻿using CursoOnline.Dominio.Cursos;
+﻿using System.Collections.Generic;
+using CursoOnline.Dominio.Cursos;
+using CursoOnline.Web.Util;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CursoOnline.Web.Controllers
@@ -8,9 +10,9 @@ namespace CursoOnline.Web.Controllers
 
         public IActionResult Index()
         {
-            var cursos = new List<CursoParaListagemDTO>;
+            var cursos = new List<CursoParaListagemDTO>();
 
-            return View("Index", PaginatedList<CursoPara>.Create(cursos, Request));
+            return View("Index", PaginatedList<CursoParaListagemDTO>.Create(cursos, Request));
         }
 
         public IActionResult Novo()

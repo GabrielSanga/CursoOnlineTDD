@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CursoOnline.Dominio.Cursos
+﻿namespace CursoOnline.Dominio.Cursos
 {
-    class CursoParaListagemDTO
+    public class CursoParaListagemDTO
     {
         public int Id { get; set; }
         public string Nome { get; set; }
@@ -13,4 +9,5 @@ namespace CursoOnline.Dominio.Cursos
         public double Valor { get; set; }
 
     }
+
 }
