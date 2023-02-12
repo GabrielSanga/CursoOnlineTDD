@@ -37,4 +37,5 @@ C:\Users\gabri\source\repos\CursoOnline\src\CursoOnline.Web\CursoOnline.Web\obj\
 C:\Users\gabri\source\repos\CursoOnline\src\CursoOnline.Web\CursoOnline.Web\obj\Debug\netcoreapp3.1\CursoOnline.Web.dll
 C:\Users\gabri\source\repos\CursoOnline\src\CursoOnline.Web\CursoOnline.Web\obj\Debug\netcoreapp3.1\CursoOnline.Web.pdb
 C:\Users\gabri\source\repos\CursoOnline\src\CursoOnline.Web\CursoOnline.Web\obj\Debug\netcoreapp3.1\CursoOnline.Web.genruntimeconfig.cache
-C:\Users\gabri\source\repos\CursoOnline\src\CursoOnline.Web\CursoOnline.Web\obj\Debug\netcoreapp3.1\Razor\Views\Cursos\Index.cshtml.g.cs
+C:\Users\gabri\source\repos\CursoOnline\src\CursoOnline.Web\CursoOnline.Web\obj\Debug\netcoreapp3.1\Razor\Views\Curso\Index.cshtml.g.cs
+C:\Users\gabri\source\repos\CursoOnline\src\CursoOnline.Web\CursoOnline.Web\obj\Debug\netcoreapp3.1\Razor\Views\Curso\NovoOuEditar.cshtml.g.cs

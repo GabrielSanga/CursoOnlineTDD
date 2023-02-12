@@ -1,6 +1,8 @@
-﻿namespace CursoOnline.Dominio.Cursos
+﻿using CursoOnline.Dominio._Base;
+
+namespace CursoOnline.Dominio.Cursos
 {
-    public class CursoDTO
+    public class CursoDTO : Entidade
     {
         public string Nome { get; set; }
         public string Descricao { get; set; }

@@ -9,6 +9,7 @@
     ".NETStandard,Version=v2.1/": {
       "CursoOnline.Dados/1.0.0": {
         "dependencies": {
+          "CursoOnline.Dominio": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.17",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.17"
@@ -1527,6 +1528,11 @@
             "fileVersion": "4.6.24705.1"
           }
         }
+      },
+      "CursoOnline.Dominio/1.0.0": {
+        "runtime": {
+          "CursoOnline.Dominio.dll": {}
+        }
       }
     }
   },
@@ -2424,6 +2430,11 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "CursoOnline.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
