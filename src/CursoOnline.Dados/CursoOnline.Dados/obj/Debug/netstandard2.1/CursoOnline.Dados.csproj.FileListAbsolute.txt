@@ -1,0 +1,9 @@
+C:\Users\gabri\source\repos\CursoOnline\src\CursoOnline.Dados\CursoOnline.Dados\bin\Debug\netstandard2.1\CursoOnline.Dados.deps.json
+C:\Users\gabri\source\repos\CursoOnline\src\CursoOnline.Dados\CursoOnline.Dados\bin\Debug\netstandard2.1\CursoOnline.Dados.dll
+C:\Users\gabri\source\repos\CursoOnline\src\CursoOnline.Dados\CursoOnline.Dados\bin\Debug\netstandard2.1\CursoOnline.Dados.pdb
+C:\Users\gabri\source\repos\CursoOnline\src\CursoOnline.Dados\CursoOnline.Dados\obj\Debug\netstandard2.1\CursoOnline.Dados.csproj.AssemblyReference.cache
+C:\Users\gabri\source\repos\CursoOnline\src\CursoOnline.Dados\CursoOnline.Dados\obj\Debug\netstandard2.1\CursoOnline.Dados.AssemblyInfoInputs.cache
+C:\Users\gabri\source\repos\CursoOnline\src\CursoOnline.Dados\CursoOnline.Dados\obj\Debug\netstandard2.1\CursoOnline.Dados.AssemblyInfo.cs
+C:\Users\gabri\source\repos\CursoOnline\src\CursoOnline.Dados\CursoOnline.Dados\obj\Debug\netstandard2.1\CursoOnline.Dados.csproj.CoreCompileInputs.cache
+C:\Users\gabri\source\repos\CursoOnline\src\CursoOnline.Dados\CursoOnline.Dados\obj\Debug\netstandard2.1\CursoOnline.Dados.dll
+C:\Users\gabri\source\repos\CursoOnline\src\CursoOnline.Dados\CursoOnline.Dados\obj\Debug\netstandard2.1\CursoOnline.Dados.pdb
