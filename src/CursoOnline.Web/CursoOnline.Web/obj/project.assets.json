@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "CursoOnline.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/CursoOnline.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CursoOnline.Dominio.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CursoOnline.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../../CursoOnline.Dominio/CursoOnline.Dominio.csproj",
+      "msbuildProject": "../../CursoOnline.Dominio/CursoOnline.Dominio.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "CursoOnline.Dominio >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\gabri\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\gabri\\source\\repos\\CursoOnline\\src\\CursoOnline.Dominio\\CursoOnline.Dominio.csproj": {
+              "projectPath": "C:\\Users\\gabri\\source\\repos\\CursoOnline\\src\\CursoOnline.Dominio\\CursoOnline.Dominio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
