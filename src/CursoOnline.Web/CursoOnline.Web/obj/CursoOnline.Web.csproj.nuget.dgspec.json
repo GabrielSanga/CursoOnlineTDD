@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabri\\source\\repos\\CursoOnline\\src\\CursoOnline.Web\\CursoOnline.Web\\CursoOnline.Web.fsproj": {}
+    "C:\\Users\\gabri\\source\\repos\\CursoOnline\\src\\CursoOnline.Web\\CursoOnline.Web\\CursoOnline.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabri\\source\\repos\\CursoOnline\\src\\CursoOnline.Web\\CursoOnline.Web\\CursoOnline.Web.fsproj": {
+    "C:\\Users\\gabri\\source\\repos\\CursoOnline\\src\\CursoOnline.Web\\CursoOnline.Web\\CursoOnline.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\CursoOnline\\src\\CursoOnline.Web\\CursoOnline.Web\\CursoOnline.Web.fsproj",
+        "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\CursoOnline\\src\\CursoOnline.Web\\CursoOnline.Web\\CursoOnline.Web.csproj",
         "projectName": "CursoOnline.Web",
-        "projectPath": "C:\\Users\\gabri\\source\\repos\\CursoOnline\\src\\CursoOnline.Web\\CursoOnline.Web\\CursoOnline.Web.fsproj",
+        "projectPath": "C:\\Users\\gabri\\source\\repos\\CursoOnline\\src\\CursoOnline.Web\\CursoOnline.Web\\CursoOnline.Web.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\gabri\\source\\repos\\CursoOnline\\src\\CursoOnline.Web\\CursoOnline.Web\\obj\\",
         "projectStyle": "PackageReference",
@@ -29,24 +29,16 @@
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
         }
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "FSharp.Core": {
-              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
-              "target": "Package",
-              "version": "[5.0.0, )",
-              "generatePathProperty": true
-            },
-            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
-              "target": "Package",
-              "version": "[3.1.31, )",
-              "generatePathProperty": true
-            }
-          },
           "imports": [
             "net461",
             "net462",
